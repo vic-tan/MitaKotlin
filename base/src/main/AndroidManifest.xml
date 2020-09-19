@@ -1,0 +1,33 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.base">
+
+    <application
+        android:maxAspectRatio="2.4"
+        android:resizeableActivity="true">
+
+        <!-- 今日头条适配-->
+        <meta-data
+            android:name="design_width_in_dp"
+            android:value="360" />
+        <meta-data
+            android:name="design_height_in_dp"
+            android:value="640" />
+
+        <!--        全面屏与刘海适配 在manifest加入如下配置，四选其一，或者都写-->
+        <!--        ① 在manifest的Application节点下加入-->
+        <!--        ② 在manifest的Application节点中加入   android:resizeableActivity="true"-->
+        <!--        ③ 在manifest的Application节点中加入   android:maxAspectRatio="2.4"-->
+        <!--        ④ 升级targetSdkVersion为25以上版本-->
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4" />
+        <!--适配华为（huawei）刘海屏-->
+        <meta-data
+            android:name="android.notch_support"
+            android:value="true" />
+        <!--适配小米（xiaomi）刘海屏-->
+        <meta-data
+            android:name="notch.config"
+            android:value="portrait|landscape" />
+    </application>
+</manifest>

@@ -1,0 +1,22 @@
+ext {
+    android = [
+            applicationId: "com.huarui.videoline",
+            compileSdkVersion: 30,
+            minSdkVersion    : 21,
+            targetSdkVersion : 30,
+            versionCode      : 20200916,
+            versionName      : "1.0.0"
+    ]
+
+    configField = [
+            proUrl    :   "\"https://videoline.cqkegemo.cn\"",
+            proChannel:   "pro",
+            buglyRelease  :   true,
+
+            devUrl      :   "\"http://mitanew.cqkegemo.cn\"",
+            devChannel  :   "dev",
+            buglyDev    :   false,
+    ]
+
+
+}
