@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">MitaKotlin</string>
+    <string name="app_name">Mita</string>
+
+    <!--   personal -->
+    <string name="nickname">昵称</string>
+    <string name="sex">性别</string>
+    <string name="recharge">充值</string>
+    <string name="noble">贵族</string>
+    <string name="photo">相册</string>
+    <string name="attention">关注</string>
+    <string name="grade">我的等级</string>
+    <string name="auth">主播认证</string>
+    <string name="fan_medal">粉丝勋章</string>
+    <string name="customer_service">客服中心</string>
+    <string name="promotion_center">推广中心</string>
+    <string name="system_settings">系统设置</string>
+    <string name="personal_info">个人资料</string>
+    <string name="birthday">生日</string>
+    <string name="weight">体重</string>
+    <string name="height">身高</string>
+    <string name="tab_live">秀场</string>
+    <string name="tab_video">视频</string>
+    <string name="tab_msg">消息</string>
+    <string name="tab_personal">我的</string>
+    <string name="recommend">推荐</string>
+    <string name="newcomer">新人</string>
+    <string name="nearby">附近</string>
+    <string name="save">保存</string>
 </resources>

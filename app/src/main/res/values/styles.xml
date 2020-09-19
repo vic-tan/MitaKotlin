@@ -7,4 +7,102 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- 首页底部tabs 布局公用样式 -->
+    <style name="navigator_tab_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- 首页底部tabs 图片公用样式 -->
+    <style name="navigator_tab_image_style">
+        <item name="android:layout_width">27dp</item>
+        <item name="android:layout_height">27dp</item>
+    </style>
+
+    <!-- 首页底部tabs 字体公用样式 -->
+    <style name="navigator_tab_title_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/tab_txt_normal</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+    <!--主页Fragment 标题栏样式-->
+    <style name="fragment_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="split_line">
+        <item name="android:background">@color/split_line</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+
+
+    <!-- 个人中心列表样式 -->
+    <style name="personal_item_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- 个人中心列表字体样式 -->
+    <style name="personal_item_img_style">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+    </style>
+
+    <!-- 个人中心列表字体样式 -->
+    <style name="personal_item_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:textColor">@color/text_color_3</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+
+
+    <!-- 个人中心列表样式 -->
+    <style name="personal_info_item_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- 个人资料列表字体样式 -->
+    <style name="personal_info_item_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">57dp</item>
+        <item name="android:textColor">@color/text_color_3</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <!-- 个人资料列表字体样式 -->
+    <style name="personal_info_item_img_style">
+        <item name="android:layout_width">6dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:layout_marginRight">17dp</item>
+    </style>
+
+
 </resources>

@@ -1,0 +1,10 @@
+<resources>
+    <!-- 指示器高-->
+    <dimen name="indicator_height">35dp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="fragment_title_select_size">18sp</dimen>
+    <dimen name="fragment_title_unselect_size">16sp</dimen>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorAccent</item>
+        <!--状态栏颜色-->
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <!--控制各个控件被选中时的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--页面背景色-->
+        <item name="android:windowBackground">@android:color/white</item>
+        <!--api 21 可用 各个控制控件的默认颜色-->
+        <item name="android:colorControlNormal">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:screenOrientation">portrait</item>
+    </style>
+
+
+    <style name="NoBarFullscreen" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="dialogBase" parent="@android:style/Theme.Dialog">
+
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+
+</resources>
